@@ -89,6 +89,9 @@ body{
     justify-content: space-around;
     align-items: center;
 }
+.green{
+    color:rgb(57, 107, 8) ;
+}
 .flex .flex2{
     width: 6em;
 }
