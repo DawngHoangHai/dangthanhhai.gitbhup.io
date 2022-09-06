@@ -111,7 +111,7 @@
         height: auto;
     }
     .body .block-child .infor, .infor p {
-        font-size: 2rem;
+        font-size: 25px;
     }
 }
 @media only screen and (max-width:370px)
