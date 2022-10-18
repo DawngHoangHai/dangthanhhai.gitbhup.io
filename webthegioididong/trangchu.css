@@ -465,6 +465,7 @@ ul ,li,ol{
 .list-produc .producs .items-img{
     height: 220px;
     line-height: 220px;
+    overflow: hidden;
 }
 .list-produc .producs .items-img img{
     margin: 0 auto;
@@ -546,8 +547,12 @@ ul ,li,ol{
 .producs:hover a>h3{
     color:rgb(0, 81, 255);
 }
-.producs:hover a>.items-img>img{
-    padding-bottom: 13px;
+/* .producs:hover a>.items-img>img{
+    transform: scale(1.1);
+    transition: all 0.4s;
+} */
+.producs:hover{
+    transform:scale(0.95);
     transition: all 0.4s;
 }
 /* XONG PHẦN TUÀN LỄ REALMI */
@@ -642,7 +647,6 @@ ul ,li,ol{
 }
 .cate-feature .box-cate ul li img{
     display: block;
-    height: 56px;
     margin: auto;
     width: auto;
     height: 60px;
@@ -883,20 +887,23 @@ ul ,li,ol{
 .lenDauTrang{
     position: fixed;
     bottom: 50px;
-    right: 65px;
-    width: 45px;
-    height: 45px;
-    background: rgba(235, 7, 34, 0.9);
-    border-radius: 14px;
+    right: 50px;
+    width: 60px;
+    height: 60px;
+    background: rgb(255 255 255);
+    border-radius: 50%;
     z-index: 10;
-    color:white;
+    color: #000000a6;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 11px;
-    /* border: 1px solid; */
-    font-family: inherit;
-    font-weight: 600;
+    box-shadow: 0 0 4px 0px;
+    font-size: 25px;
+    padding: 14px;
+}
+.lenDauTrang:hover{
+    transform:scale(1.2);
+    transition: all 0.4s;
 }
 /* RÉPPONSIVE */
 @media only screen and (min-width: 741px) and (max-width: 1023px){
