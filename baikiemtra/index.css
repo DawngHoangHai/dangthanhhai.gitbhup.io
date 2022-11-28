@@ -170,6 +170,7 @@ table .redder {
   .block_cha .block_con1 {
     width: 95%;
     margin-bottom: 2rem;
+    background-color:none;
   }
   .block_cha .block_con2 {
     width: 95%;
@@ -191,6 +192,7 @@ table .redder {
 @media only screen and (max-width: 740px) {
   body {
     width: 102%;
+    background-image: none;
   }
   .main_chinh .block_cha {
     display: flex;

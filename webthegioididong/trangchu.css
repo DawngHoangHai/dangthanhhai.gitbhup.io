@@ -552,7 +552,7 @@ ul ,li,ol{
     transition: all 0.4s;
 } */
 .producs:hover{
-    transform:scale(0.95);
+    transform:scale(1.04);
     transition: all 0.4s;
 }
 /* XONG PHẦN TUÀN LỄ REALMI */
@@ -900,6 +900,7 @@ ul ,li,ol{
     box-shadow: 0 0 4px 0px;
     font-size: 25px;
     padding: 14px;
+    visibility: visible;
 }
 .lenDauTrang:hover{
     transform:scale(1.2);
